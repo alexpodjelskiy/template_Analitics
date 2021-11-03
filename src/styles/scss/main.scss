@@ -1,0 +1,15 @@
+@import './reset';
+
+.wrapper {
+    margin: 0 auto;
+    width: 940px;
+    height: 100%;
+}
+
+@import './upperHeader';
+@import './header';
+@import './sectionStory';
+@import './sectionOurCapabilities';
+@import './sectionContacts';
+@import './sectionSignUp';
+

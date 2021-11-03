@@ -1,0 +1,62 @@
+.header {
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+}
+
+.navigation-panel {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.navigation-panel__logo {
+    width: 50%;
+    background: url(../../img/projecе-logo-black.png) no-repeat left center;
+}
+
+.navigation-panel__nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation-panel__list {
+    display: flex;
+    flex-direction: row;
+    gap: 39px;
+}
+
+.navigation-panel__link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.09091px;
+    color: #48555B;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &--blue {
+        color: #00A4E5;
+    }
+
+    &:hover {
+        scale: (3.0);
+        text-decoration: underline;
+        box-shadow:
+        1px 1px #34257a,
+        2px 2px #34257a,
+        3px 3px #34257a,
+        4px 4px #34257a,
+        5px 5px #34257a,
+        6px 6px #34257a,
+        7px 7px #34257a;
+        -webkit-transform: translateX(-7px);
+        transform: translateX(-7px);
+    }
+}
+

@@ -1,0 +1,125 @@
+.capabilities {
+    height: 446px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 120px 0px 115px;
+    border: 2px solide red;
+}
+
+.capabilities__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.capabilities__title {
+    width: 198px;
+    height: 37px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+// .line {
+// }
+
+.capabilities__text {
+    width: 405.4px;
+    height: 38px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B;
+}
+
+.capabilities__button {
+    display: flex;
+    background: #00A4E5;
+}
+
+.capabilities__link {
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.capabilities__container--bottom {
+    display: flex;
+    margin-top: 100px;
+    height: 330px;
+    width: 100%;
+}
+
+.capabilities__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 295px;
+    height: 330px;
+    padding: 38px 22px 39px 23px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+}
+
+.capabilities__card-image {
+    width: 71px;
+    height: 75px;
+}
+
+.capabilities__card-image--management {
+    background: url(../../img/management.jpg) no-repeat;
+}
+
+.capabilities__card-image--audit {
+    background: url(../../img/audit.jpg) no-repeat;
+}
+
+.capabilities__card-image--modeling {
+    background: url(../../img/modeling.jpg) no-repeat;
+}
+
+.capabilities__card-title {
+    width: 250px;
+    height: 48px;
+    margin: 25px 0px 13px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    color: #48555B;
+    text-transform: uppercase;
+}
+
+.capabilities__card-text {
+    width: 250px;
+    height: 92px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
