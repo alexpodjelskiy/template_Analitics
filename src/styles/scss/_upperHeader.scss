@@ -7,15 +7,15 @@
 
 .upper-header__container {
     height: 100%;
+    padding-top: 41px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.upper-header__logo {
-    margin-top: 41px;
-    width: 100%;
+.logo {
+    width: 101.86px;
     height: 23px;
     background: url(../../img/project-logo.png) no-repeat center;
 }

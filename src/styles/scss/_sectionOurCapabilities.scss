@@ -27,9 +27,6 @@
     white-space: nowrap;
 }
 
-// .line {
-// }
-
 .capabilities__text {
     width: 405.4px;
     height: 38px;
@@ -42,15 +39,10 @@
     color: #48555B;
 }
 
-.capabilities__button {
-    display: flex;
-    background: #00A4E5;
-}
-
-.capabilities__link {
-    display: block;
+.button {
     width: 150px;
     height: 40px;
+    border: none;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -60,6 +52,7 @@
     color: #FFFFFF;
     text-decoration: none;
     text-transform: uppercase;
+    background:#00A4E5;
 }
 
 .capabilities__container--bottom {
