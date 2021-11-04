@@ -352,13 +352,17 @@ textarea {
   padding: 0.2em 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 940px;
   height: 100%;
 }
 
-.upper-header {
+#upper-header {
   width: 100%;
   height: 769px;
   background: url(../../img/upperheader-bg.jpg) no-repeat center;
@@ -468,31 +472,42 @@ footer {
 }
 
 .navigation-panel__link:hover {
-  scale: 3;
   text-decoration: underline;
   box-shadow: 1px 1px #34257a, 2px 2px #34257a, 3px 3px #34257a, 4px 4px #34257a, 5px 5px #34257a, 6px 6px #34257a, 7px 7px #34257a;
   transform: translateX(-7px);
 }
 
-.story {
+#story {
   height: 344px;
   margin: 58px 0px 118px;
 }
 
-.story__title {
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
-  text-align: center;
   text-transform: uppercase;
   letter-spacing: 2.30625px;
   color: #48555B;
 }
 
-.line {
+.title__devider {
   display: block;
+  width: 50px;
+  height: 2px;
+  border-top: 2px solid #00A4E5;
+  margin-top: 10px;
+}
+
+.title__line {
   margin: 10px auto 0px;
   width: 50px;
   height: 2px;
@@ -579,7 +594,7 @@ footer {
   text-decoration: underline;
 }
 
-.capabilities {
+#capabilities {
   height: 446px;
   width: 100%;
   display: flex;
@@ -594,18 +609,10 @@ footer {
   align-items: flex-start;
 }
 
-.capabilities__title {
-  width: 198px;
-  height: 37px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 2.30625px;
-  color: #48555B;
-  text-transform: uppercase;
-  white-space: nowrap;
+.capabilities__title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 .capabilities__text {
@@ -698,7 +705,7 @@ footer {
   color: #48555B;
 }
 
-.contacts {
+#contacts {
   width: 100%;
   height: 499px;
   padding-top: 120px;
@@ -792,7 +799,7 @@ footer {
   color: transparent;
 }
 
-.footer {
+#footer {
   width: 100%;
   height: 240px;
   background: #141A20;
@@ -860,7 +867,7 @@ footer {
   height: 75px;
 }
 
-.footer__item {
+.footer__nav-link {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -869,6 +876,11 @@ footer {
   letter-spacing: 0.846154px;
   color: #FFFFFF;
   white-space: nowrap;
+  text-decoration: none;
+}
+
+.footer__nav-link:hover {
+  text-decoration: underline;
 }
 
 .footer__block--center-right {

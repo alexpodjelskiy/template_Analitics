@@ -1,5 +1,9 @@
 @import './reset';
 
+html {
+    scroll-behavior: smooth;
+}
+
 .wrapper {
     margin: 0 auto;
     width: 940px;

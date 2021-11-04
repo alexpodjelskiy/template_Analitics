@@ -1,4 +1,4 @@
-.capabilities {
+#capabilities {
     height: 446px;
     width: 100%;
     display: flex;
@@ -13,18 +13,10 @@
     align-items: flex-start;
 }
 
-.capabilities__title {
-    width: 198px;
-    height: 37px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 2.30625px;
-    color: #48555B;
-    text-transform: uppercase;
-    white-space: nowrap;
+.capabilities__title-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .capabilities__text {
