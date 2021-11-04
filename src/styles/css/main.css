@@ -497,6 +497,7 @@ footer {
   text-transform: uppercase;
   letter-spacing: 2.30625px;
   color: #48555B;
+  white-space: nowrap;
 }
 
 .title__devider {
@@ -605,7 +606,6 @@ footer {
 
 .capabilities__container {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
 }
 
@@ -618,6 +618,7 @@ footer {
 .capabilities__text {
   width: 405.4px;
   height: 38px;
+  margin: 0px 31.6px 0px 155px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
